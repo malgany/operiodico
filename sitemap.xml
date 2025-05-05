@@ -256,17 +256,6 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/operiodico/authors/luna-rainbow/</loc>
-    
-    
-    <image:image>
-      <image:loc>http://localhost:1313/operiodico/luna.png</image:loc>
-    </image:image>
-    
-    
-  </url>
-  
-  <url>
     <loc>http://localhost:1313/operiodico/search/</loc>
     
     
@@ -277,8 +266,19 @@
         <news:language>pt-br</news:language>
       </news:publication>
       <news:publication_date>0001-01-01T00:00:00&#43;00:00</news:publication_date>
-      <news:title>Search</news:title>
+      <news:title>Buscar</news:title>
     </news:news>
+    
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/operiodico/authors/luna-rainbow/</loc>
+    
+    
+    <image:image>
+      <image:loc>http://localhost:1313/operiodico/luna.png</image:loc>
+    </image:image>
+    
     
   </url>
   
