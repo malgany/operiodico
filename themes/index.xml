@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Themes on O Periódico</title>
-    <link>http://localhost:1313/themes/</link>
+    <link>http://localhost:1313/operiodico/themes/</link>
     <description>Recent content in Themes on O Periódico</description>
     <generator>Hugo</generator>
     <language>pt-br</language>
     <lastBuildDate>Sun, 04 May 2025 23:45:17 -0400</lastBuildDate>
-    <atom:link href="http://localhost:1313/themes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/operiodico/themes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Meu Primeiro Post</title>
-      <link>http://localhost:1313/themes/hugo-news/content/articles/meu-primeiro-post/</link>
+      <link>http://localhost:1313/operiodico/themes/hugo-news/content/articles/meu-primeiro-post/</link>
       <pubDate>Sun, 04 May 2025 23:45:17 -0400</pubDate>
-      <guid>http://localhost:1313/themes/hugo-news/content/articles/meu-primeiro-post/</guid>
+      <guid>http://localhost:1313/operiodico/themes/hugo-news/content/articles/meu-primeiro-post/</guid>
       <description></description>
     </item>
   </channel>
