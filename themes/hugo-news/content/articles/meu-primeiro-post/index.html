@@ -33,7 +33,7 @@
     
     
     
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="../../../../../css/main.css">
     
     <script src="https://cdn.tailwindcss.com"></script>
     
@@ -43,23 +43,15 @@
     <header class="bg-white shadow-md">
         <nav class="container mx-auto px-6 py-3">
             <div class="flex justify-between items-center">
-                <a href="/operiodico/" class="text-2xl font-bold text-gray-800">O Periódico</a>
+                <a href="../../../../../operiodico/" class="text-2xl font-bold text-gray-800">O Periódico</a>
                 <div class="flex space-x-4">
                     
-                    <a href="/operiodico/" class="text-gray-700 hover:text-gray-900">Início</a>
+                    <a href="../../../../../operiodico/" class="text-gray-700 hover:text-gray-900">Início</a>
                     
-                    <a href="/operiodico/categories" class="text-gray-700 hover:text-gray-900">Categorias</a>
+                    <a href="../../../../../operiodico/categories" class="text-gray-700 hover:text-gray-900">Categorias</a>
                     
-                    <a href="/operiodico/tags" class="text-gray-700 hover:text-gray-900">Tags</a>
+                    <a href="../../../../../operiodico/tags" class="text-gray-700 hover:text-gray-900">Tags</a>
                     
-                    <div x-data="{ open: false }" class="relative">
-                        <button @click="open = !open" class="text-gray-700 hover:text-gray-900">Search</button>
-                        <div x-show="open" @click.away="open = false" class="absolute right-0 mt-2 w-64 bg-white rounded-md shadow-lg">
-                            <form action="/search" method="get" class="p-4">
-                                <input type="text" name="q" placeholder="Search..." class="w-full px-3 py-2 border rounded-md">
-                            </form>
-                        </div>
-                    </div>
                 </div>
             </div>
         </nav>
@@ -71,7 +63,7 @@
     <header class="mb-8">
         <h1 class="text-4xl font-bold mb-4">Meu Primeiro Post</h1>
         <div class="flex items-center text-gray-600 mb-4">
-            <span class="mr-4">By <a href="/authors/" class="text-blue-600 hover:text-blue-800"></a></span>
+            <span class="mr-4">By <a href="../../../../../authors/" class="text-blue-600 hover:text-blue-800"></a></span>
             <span class="mr-4">May 4, 2025</span>
         </div>
         
